@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.5.0"
+  },
+  "dependencies": {
+    "@exampathfinder/tiptap-katex": "^2.0.3",
+    "@tiptap/extension-bullet-list": "2.0.3",
+    "@tiptap/extension-highlight": "2.0.3",
+    "@tiptap/extension-image": "2.0.3",
+    "@tiptap/extension-list-item": "2.0.3",
+    "@tiptap/extension-ordered-list": "2.0.3",
+    "@tiptap/extension-table": "2.0.3",
+    "@tiptap/extension-table-cell": "2.0.3",
+    "@tiptap/extension-table-header": "2.0.3",
+    "@tiptap/extension-table-row": "2.0.3",
+    "@tiptap/extension-text-align": "2.0.3",
+    "@tiptap/extension-underline": "2.0.3",
+    "@tiptap/starter-kit": "2.0.3",
+    "@tiptap/vue-3": "2.0.3"
+  }
+}
