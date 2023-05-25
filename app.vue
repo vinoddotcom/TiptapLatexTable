@@ -19,7 +19,7 @@ import TableHeader from "@tiptap/extension-table-header";
 import TableRow from "@tiptap/extension-table-row";
 import { useEditor, EditorContent, Editor } from "@tiptap/vue-3";
 // @ts-ignore
-import { Mathematics } from "@exampathfinder/tiptap-katex";
+import { Mathematics } from "@tiptap-pro/extension-mathematics";
 
 const editor = useEditor({
   extensions: [
