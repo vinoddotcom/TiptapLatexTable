@@ -13,34 +13,17 @@
 
 <script setup lang="ts">
 import StarterKit from "@tiptap/starter-kit";
-// // eslint-disable-next-line import/no-extraneous-dependencies
-// import Document from "@tiptap/extension-document";
-// import Gapcursor from "@tiptap/extension-gapcursor";
-// import Paragraph from "@tiptap/extension-paragraph";
 import Table from "@tiptap/extension-table";
 import TableCell from "@tiptap/extension-table-cell";
 import TableHeader from "@tiptap/extension-table-header";
 import TableRow from "@tiptap/extension-table-row";
-// // eslint-disable-next-line import/no-extraneous-dependencies
-// import Text from "@tiptap/extension-text";
 import { useEditor, EditorContent, Editor } from "@tiptap/vue-3";
-import { ShallowRef } from "nuxt/dist/app/compat/vue-demi";
 // @ts-ignore
 import { Mathematics } from "@exampathfinder/tiptap-katex";
-
-
-
-// const editor: ShallowRef<Editor | undefined>;
-
-
 
 const editor = useEditor({
   extensions: [
     StarterKit,
-    // Document,
-    // Paragraph,
-    // Text,
-    // Gapcursor,
     Table.configure({
       resizable: true,
     }),
